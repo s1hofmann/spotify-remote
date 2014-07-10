@@ -28,3 +28,9 @@ Maybe I should consider developing a 'real' commandline client...
 
 The shortcut to relead the view is needed to update the displayed metadata since Spotify doesn't provide a DBus signal whenever metadata has changed.
 So in order to see the currently played song, simply hit the 'r' key once.
+
+Dependencies:
+-------------
+
+python-dbus
+ncurses
