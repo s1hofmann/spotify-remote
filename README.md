@@ -12,7 +12,7 @@ Controls
 ========
 
 | Key | Command | Action |
---------------------------
+| --- | ------- | ------ |
 | h | :prev | Play previous song |
 | l | :next | Play next song |
 | Space | :toggle | Toggle play/pause mode |
@@ -25,3 +25,6 @@ Remarks:
 
 I know there could be more features, but actually the Spotify DBus interface doesn't provide that much features.
 Maybe I should consider developing a 'real' commandline client...
+
+The shortcut to relead the view is needed to update the displayed metadata since Spotify doesn't provide a DBus signal whenever metadata has changed.
+So in order to see the currently played song, simply hit the 'r' key once.
